@@ -1,0 +1,76 @@
+body {
+    font-family: 'Consolas', Arial, Helvetica, sans-serif;
+}
+
+.container-1 {
+    display: flex;
+    justify-content: center;
+}
+
+.container-2 {
+    display: flex;
+    justify-content: center;
+}
+
+.container-3 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+
+.container-4 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+h1 {
+    font-size: 36px;
+    text-transform: uppercase;    
+}
+
+span {
+    display: flex;
+    justify-content: center;
+    border-bottom: 3px solid #DC1f27;
+    width: 40px;
+    margin: 5px;
+    padding-bottom: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+button {
+    margin: 5px;
+    width: 35px;
+    padding: 10px 0;
+    background-color: #00698c;
+    color: #FFFFFF;
+    border: 1px solid #00698c;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 10px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+button:hover {
+    background-color: #85dcf7 ;
+}
+
+.certa, certa:hover {
+    background-color: #00698c;
+    border: 1px solid #00698c;
+    cursor: inherit;
+}
+
+.errada, errada:hover {
+    background-color: #DC1f27;
+    border: 1px solid #DC1f27;
+    cursor: inherit;
+}
