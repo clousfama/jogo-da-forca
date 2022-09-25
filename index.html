@@ -1,54 +1,23 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <title>Jogo da Forca</title>
+    <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
-    <header class="container-1">
+    <header class="flex-container-1">
         <h1>Jogo da Forca</h1>
     </header>
-    <section class="container-2">
-        <img src="images/forca1.png" alt="forca">
-        <div class="container-3">
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
+    <section class="flex-container-2">
+        <img id="forca" src="images/forca.jpg" alt="Forca">
+        <div id="palavra" class="flex-container-2-2">
         </div>
+        <div id="novo"></div>
     </section>
-    <section class="container-4">
-        <button class="errada">A</button>
-        <button>B</button>
-        <button>C</button>
-        <button>D</button>
-        <button>E</button>
-        <button class="certa">F</button>
-        <button>G</button>
-        <button>H</button>
-        <button>I</button>
-        <button>J</button>
-        <button class="certa">K</button>
-        <button>L</button>
-        <button>M</button>
-        <button>N</button>
-        <button>O</button>
-        <button>P</button>
-        <button>Q</button>
-        <button>R</button>
-        <button>S</button>
-        <button class="errada">T</button>
-        <button>U</button>
-        <button>V</button>
-        <button>W</button>
-        <button>X</button>
-        <button>Y</button>
-        <button>Z</button>
-    </section> 
-    <script src="assets/script.js"></script>  
+    <section id="letras" class="flex-container-3">   
+    </section>
+    <script src="assets/script.js"></script>
 </body>
 </html>
